@@ -1,0 +1,22 @@
+.bi-youtube{
+    font-size: 5rem;
+}
+.bi-collection-play-fill{
+    font-size: 5rem;
+}
+.showcase-title{
+    position: relative;
+}
+.showcase-title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #212529;
+    animation: typewriter 4s forwards;
+}
+@keyframes typewriter{
+    to{left:100%}
+}

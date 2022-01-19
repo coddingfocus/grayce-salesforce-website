@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap 5 Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Salesforce</title>
+  </head>
+  <body>
+    <!-- navigation -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <div class="container">
+      <a href="#" class="navbar-brand h1"><i class="bi bi-cloud text-primary" style="font-size: 1.6em;"></i> LEARN SALESFORCE</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span>
+       </button> 
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#admin_trails" class="nav-link">Admin Trails</a>
+          </li>
+          <li class="nav-item">
+            <a href="#developer_trails" class="nav-link">Developer Trails</a>
+          </li>
+          <li class="nav-item">
+            <a href="#youtube_resources" class="nav-link">YouTube Resources</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Showcase -->
+  <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1 class="showcase-title" >Become a <span class="text-primary">Salesforce</span> Developer</h1>
+          <p class="lead">Start your Salesforce journey. Use the site to become a fully-fledged Salesforce developer.</p>
+          <button class="btn btn-outline-primary btn-md px-5" data-bs-toggle="modal" data-bs-target="#helpForm"><i class="bi bi-patch-question"> Ask For Help</i></button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="helpForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark" id="exampleModalLabel">New message</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <form action="mailto:dummyemail@email.com">
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label text-dark">Name:</label>
+                      <input id="recipient-name" type="text" class="form-control" name="Name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label text-dark">Message:</label>
+                      <textarea id="message-text" class="form-control"  name="Message"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-primary" >Send Message</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="img/undraw_pair_programming_re_or4x.svg">
+      </div>
+    </div>
+  </section>
+  <!-- Admin Boxes -->
+  <section class="p-5" id="admin_trails">
+    <div class="container">
+      <h1 class="text-center" style="border-bottom: 5px dotted rgb(1, 66, 245);">Trailhead Admin Trails</h1>
+      <div class="row text-center">
+        <!-- Box 1 -->
+        <div class="col-md">
+          <div class="card bg-dark text-light py-3 my-2">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-screwdriver text-primary"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Admin Beginner
+              </h3>
+              <p class="card-text">
+                Start your awesome Admin journey by learning the basics of customizing Salesforce. 
+              </p>
+              <a target="_blank" href="https://trailhead.salesforce.com/en/content/learn/trails/force_com_admin_beginner" class="btn btn-primary"> Click Here</a>
+            </div>
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div class="col-md">
+          <div class="card bg-dark text-light py-3 my-2">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-wrench text-primary "></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Admin Intermediate
+              </h3>
+              <p class="card-text">
+                Supercharge your skills and apps by using point-and-click tools to solve business needs.
+              </p>
+              <a target="_blank" href="https://trailhead.salesforce.com/en/content/learn/trails/force_com_admin_intermediate" class="btn btn-primary">Click Here</a>
+            </div>
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div class="col-md">
+          <div class="card bg-dark text-light py-3 my-2">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-tools text-primary"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Admin Advanced
+              </h3>
+              <p class="card-text">
+                Reach all star admin status by tackling more advanced Salesforce features.
+              </p>
+              <a target="_blank" href="https://trailhead.salesforce.com/en/content/learn/trails/force_com_admin_advanced" class="btn btn-primary"> Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Developer Boxes -->
+  <section class="p-5 bg-primary" id="developer_trails">
+    <div class="container">
+      <h1 class="text-center" style="border-bottom: 5px dotted rgb(251, 251, 251);">Trailhead Developer Trails</h1>
+      <div class="row text-center">
+        <!-- Box 1 -->
+        <div class="col-md">
+          <div class="card bg-dark text-light py-3 my-2">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-code text-primary"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Developer Beginner
+              </h3>
+              <p class="card-text">
+                Leverage your existing development skills to build apps fast on the Salesforce Platform.
+              </p>
+              <a target="_blank" href="https://trailhead.salesforce.com/en/content/learn/trails/force_com_dev_beginner" class="btn btn-primary"> Click Here</a>
+            </div>
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div class="col-md">
+          <div class="card bg-dark text-light py-3 my-2">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-code-slash text-primary "></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Developer Intermediate
+              </h3>
+              <p class="card-text">
+                Take your apps to the next level with powerful integration and mobile tools. 
+              </p>
+              <a target="_blank" href="https://trailhead.salesforce.com/en/content/learn/trails/force_com_dev_intermediate" class="btn btn-primary">Click Here</a>
+            </div>
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div class="col-md">
+          <div class="card bg-dark text-light py-3 my-2">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-code-square text-primary"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Developer Advanced
+              </h3>
+              <p class="card-text">
+                Unlock the power of the platform and develop enterprise-class skills. 
+              </p>
+              <a target="_blank" href="https://trailhead.salesforce.com/en/content/learn/trails/force_com_dev_advanced" class="btn btn-primary"> Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- YouTube Resources -->
+  <section class="p-2" id="youtube_resources">
+    <div class="container">
+      <div class="row text-center">
+        <h1 style="border-bottom: 5px dotted rgb(1, 66, 245);">YouTube Resources</h1>
+        <div class="col p-5">
+          <!-- YouTube Channels -->
+          <div class="row bg-dark p-5">
+            <div class="col-md">
+              <h1><a target="_blank" title="Salesforce Training Tutorials" href="https://www.youtube.com/c/SalesforceTrainingTutorials"><i class="bi bi-youtube text-danger"></i></a></h1>
+              <p class="text-light">Salesforce Training Tutorials</p>
+            </div>
+           <div class="col-md">
+              <h1><a target="_blank"title="SFDC Facts"href="https://www.youtube.com/c/SFDCFacts"><i class="bi bi-youtube text-danger"></i></a></h1>
+              <p class="text-light">SFDC Facts</p>
+            </div>
+            <div class="col-md">
+              <h1><a target="_blank" title="Salesforce Hulk"href="https://www.youtube.com/c/SalesforceHulk"><i class="bi bi-youtube text-danger"></i></a></h1>
+              <p class="text-light">Salesforce Hulk</p>
+            </div>
+            <div class="col-md">
+              <h1><a target="_blank" title="Salesforce Apex Hours"href="https://www.youtube.com/channel/UChTdRj6YfwqhR_WEFepkcJw"><i class="bi bi-youtube text-danger"></i></a></h1>
+              <p class="text-light">Salesforce Apex Hours</p>
+            </div>
+          </div>
+          <!-- YouTube Playlist -->
+          <div class="row bg-dark">
+            <div class="col-lg">
+              <h1><a target="_blank" title="Salesforce Admin Playlist" href="https://www.youtube.com/playlist?list=PLaGX-30v1lh1BaUKgXa05gqrOP0vUg_6i"><i class="bi bi-collection-play-fill text-danger"></i></a></h1>
+              <p class="text-light">Salesforce Admin Playlist</p>
+            </div>
+            <div class="col-lg">
+              <h1><a target="_blank" title="Salesforce Developer Playlist" href="https://www.youtube.com/playlist?list=PLaGX-30v1lh1e8roeCUumUEel5ukdPubj"><i class="bi bi-collection-play-fill text-danger"></i></a></h1>
+              <p class="text-light">Salesforce Developer Playlist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
